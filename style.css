@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #ffffff;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #FFFFFF;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #FCD34D;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+
+
+.team .card {
+	
+	position: relative;
+	left: 600px;
+	bottom: 400px;
+	margin-bottom: 30px;
+	
+	
+}
+.services .card-body i {
+	font-size: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 50px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: 140% 85%;
+    background-position: top;
+    padding:1.5rem 7%;
+    padding-top: 4rem;;
+}
+
+.home .image{
+    flex:1 1 40rem;
+    padding-top: 6rem;
+}
+
+.home .image img{
+    width:100%;
+}
+
+.home .content{
+    flex:1 1 40rem;
+    padding-top: 5rem;
+}
+
+.home .content h1{
+    font-size: 3rem;
+    color:#090505;
+}
+
+.home .content p{
+    font-size: 1.8rem;
+    color:#080202;
+    padding:.5rem 0;
+}
+
+.home .content .btn{
+    background:#FCD34D;
+    color:#FFFFFF;
+}
+
+.home .content .btn:hover{
+    color:#fff;
+}
+
+.about h3 {
+    
+    position: relative;
+    left: 250px;
+}
+
+.about p{
+	position: relative;
+	left: 270px;
+}
+
+.about a{
+	position: relative;
+	left: 450px;
+}
+
+.card-body4 .card-body3 .card-body2 .card-body1{
+	padding: relative;
+	flex: 1 1 auto;
+	padding: 2rem 2rem;
+	
+}
+
+.card {
+    background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+.image-responsive img{
+	height: 500px;
+	width: 250px;
+	position: relative;
+	top: 80px;
+}
+
+.section-padding {
+    padding: 55px 0;
+}
+
+.follow h1{
+	position: relative;
+    left: 450px;
+	bottom: 50px ;
+}
+.follow a{
+	position: relative;
+	left:400px ;
+	bottom: 10px;
+}
+
